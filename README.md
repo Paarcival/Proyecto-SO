@@ -44,5 +44,5 @@ Este proyecto implementa un sistema simulado de producción de aluminio en celda
 ### **Ejecutar en el entorno local**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/produccion-aluminio.git
+   https://github.com/Paarcival/Proyecto-SO.git
    cd produccion-aluminio
