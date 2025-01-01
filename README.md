@@ -46,3 +46,15 @@ Este proyecto implementa un sistema simulado de producción de aluminio en celda
    ```bash
    git clone https://github.com/Paarcival/Proyecto-SO.git
    cd Proyecto-SO/
+2. Compilar proyecto a imagen docker
+   ```bash
+   sudo docker build -t produccion-aluminio  .
+3. Crear contenedor con la imagen
+   ```bash
+   sudo docker run -d --rm --name produccion produccion-aluminio
+
+## **Ver logs del contenedor**
+   ```bash
+   sudo docker logs  produccion
+   ```
+Nota: Estos ejemplos son con el nombre para la imagen y para el contenedor, pero estos pueden ser cambiados.
