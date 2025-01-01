@@ -1,6 +1,6 @@
 # Usa una imagen base con soporte para C++
-FROM gcc:latest
-
+FROM alpine:latest
+RUN apk add --no-cache g++ make
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
